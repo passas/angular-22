@@ -1,0 +1,10 @@
+<div>
+    <button (click)="onClickUser()"> <!-- click ctrl+space to open all possible events for the HTML element-->
+      <img [src]="userAvatarPath" [alt]="user.name"/>
+      <span>{{ user.name }}</span>
+      <!--
+        <img [src]="userAvatarPath()" [alt]="name()"/>
+        <span>{{ name() }}</span>
+      -->
+    </button>
+</div>
